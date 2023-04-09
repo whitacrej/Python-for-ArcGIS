@@ -14855,8 +14855,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
 <li>Go to repo at <strong><a href="https://github.com/whitacrej/Python-For-ArcGIS-2023">https://github.com/whitacrej/Python-For-ArcGIS-2023</a></strong></li>
-<li>Click <strong>Clone or Download</strong></li>
-<li>Click <strong>Download Zip</strong></li>
+<li>Click <strong>Code</strong> then click <strong>Download Zip</strong></li>
 <li><strong>Extract</strong> zip file to your Desktop or other well-known folder</li>
 </ul>
 
@@ -14957,7 +14956,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li>ALL Python functionality in ArcGIS Pro is available through ArcGIS Notebooks</li>
 <li>Provides access to content in your map allowing for interactive workflows</li>
 </ul>
-<h3 id="Markdown-and-HTM-in-ArcGIS-Notebooks">Markdown and HTM in ArcGIS Notebooks<a class="anchor-link" href="#Markdown-and-HTM-in-ArcGIS-Notebooks">&#182;</a></h3><ul>
+<h3 id="Markdown-and-HTML-in-ArcGIS-Notebooks">Markdown and HTML in ArcGIS Notebooks<a class="anchor-link" href="#Markdown-and-HTML-in-ArcGIS-Notebooks">&#182;</a></h3><ul>
 <li>ArcGIS Notebooks utilize Markdown and HTML markup languages to format Markdown cells in a Notebook</li>
 <li>Markdown:<ul>
 <li>Lightweight markup language that you can use to add formatting elements to plaintext text documents</li>
@@ -17266,7 +17265,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="1.-Open-the-Illinois-Map-in-the-PythonForArcGIS.aprx-ArcGIS-Project-File">1. Open the <em>Illinois</em> Map in the <em>PythonForArcGIS.aprx</em> ArcGIS Project File<a class="anchor-link" href="#1.-Open-the-Illinois-Map-in-the-PythonForArcGIS.aprx-ArcGIS-Project-File">&#182;</a></h3><h3 id="2.-Open-the-Attribute-Table-for-the-'Illinois-Counties'-Layer">2. Open the Attribute Table for the 'Illinois Counties' Layer<a class="anchor-link" href="#2.-Open-the-Attribute-Table-for-the-'Illinois-Counties'-Layer">&#182;</a></h3><ul>
+<h3 id="1.-Open-the-Illinois-Map">1. Open the <em>Illinois</em> Map<a class="anchor-link" href="#1.-Open-the-Illinois-Map">&#182;</a></h3><h3 id="2.-Open-the-Attribute-Table-for-the-'Illinois-Counties'-Layer">2. Open the Attribute Table for the 'Illinois Counties' Layer<a class="anchor-link" href="#2.-Open-the-Attribute-Table-for-the-'Illinois-Counties'-Layer">&#182;</a></h3><ul>
 <li>We see that there is a field named 'AREA', but we don't know the units.</li>
 <li>Note the other fields</li>
 </ul>
@@ -17700,7 +17699,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li>First introduced at ArcGIS Desktop 9.0 with Python 2 and <code>arcgisscripting</code> site package</li>
 <li>ArcGIS Desktop 10 introduced <code>arcpy</code> site package</li>
 <li>ArcGIS Pro uses Python 3 <code>arcpy</code> site package</li>
-<li>ArcGIS Pro integrates Conda to manage Python packages and modules via the <strong><a href="https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-conda.htm">Python Package Manager</a></strong></li>
+<li>ArcGIS Pro integrates <strong><a href="https://docs.conda.io/en/latest/">Conda</a></strong> to manage Python packages and modules via the <strong><a href="https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-conda.htm">Python Package Manager</a></strong></li>
 <li>ArcPy is the primary desktop Python site package designed exclusively for ArcGIS Desktop</li>
 <li><strong><a href="https://pro.arcgis.com/en/pro-app/arcpy/get-started/arcgis-api-for-python.htm">ArcGIS API for Python</a></strong> is designed for ArcGIS Online and ArcGIS Enterprise<ul>
 <li>We will not go over this API in this workshop</li>
@@ -18353,7 +18352,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="nb">print</span><span class="p">(</span><span class="n">arcpy</span><span class="o">.</span><span class="n">ListFields</span><span class="p">(</span><span class="s1">&#39;Illinois Counties&#39;</span><span class="p">))</span>
 
 <span class="c1"># What is the result? Can you understand it? </span>
-<span class="c1"># What is actually being output in this case? (Hint: What type/class of object is being displayed?)</span>
+<span class="c1"># What is actually being output in this case?</span>
+<span class="c1"># (Hint: What type/class of object is being displayed?)</span>
 
 <span class="n">fields</span> <span class="o">=</span> <span class="n">arcpy</span><span class="o">.</span><span class="n">ListFields</span><span class="p">(</span><span class="s1">&#39;Illinois Counties&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">fields</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
