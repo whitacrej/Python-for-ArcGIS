@@ -1,1 +1,1 @@
-# Python for ArcGIS 2023
+# Python for ArcGIS
