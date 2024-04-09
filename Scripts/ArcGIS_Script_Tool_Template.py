@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 # Follow the Style Guide for Python Code: https://www.python.org/dev/peps/pep-0008/
-# Replace sections below enclosed by brackets "<>" with appropriate identifying information, but do not include the brackes. 
+# Replace sections below enclosed by brackets "<>" with appropriate identifying information, but do not include the brackets. 
 # Delete lines 3-6
 
 ''' Metadata, Copyright, License: 
@@ -15,7 +15,7 @@ Created:    <YYYY/MM/DD>
 Modified:   <YYYY/MM/DD>
 Version:    #.#.#
 Copyright:  Copyright <YYYY> <Your Name or Organization>
-Licence:    Licensed under the Apache License, Version 2.0 (the
+License:    Licensed under the Apache License, Version 2.0 (the
             "License"); you may not use this file except in compliance
             with the License. You may obtain a copy of the License at
             http://www.apache.org/licenses/LICENSE-2.0

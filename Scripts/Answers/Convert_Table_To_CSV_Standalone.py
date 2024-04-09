@@ -6,10 +6,10 @@ Name:       Convert_Table_To_CSV_Standalone.py
 Purpose:    This script converts a table to a CSV table with selected
             fields.
 Author:     Whitacre, James
-Created:    2023/04/10
+Created:    2024/04/10
 Version:    0.0.1
 Copyright:  Copyright <YYYY> <Your Name or Organization>
-Licence:    Licensed under the Apache License, Version 2.0 (the
+License:    Licensed under the Apache License, Version 2.0 (the
             "License"); you may not use this file except in compliance
             with the License. You may obtain a copy of the License at
             http://www.apache.org/licenses/LICENSE-2.0
